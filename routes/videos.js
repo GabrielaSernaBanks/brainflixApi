@@ -33,14 +33,14 @@ router.post("/", (req,res) => {
     id: uuidv4(),
     title: req.body.title,
     channel: req.body.channel,
-    image: req.body.image,
+    image: "./public/images/Upload-video-preview.jpg",
     description: req.body.description,
     views: 0,
     likes: 0,
-    duration: req.body.duration,
+    duration: "0:00",
     video: req.body.video,
-    timestamp: req.body.timestamp,
-    comments: req.body.comments
+    timestamp: new Date().toISOString(),
+    comments: []
   };
 
   const videos = readVideosFile();
