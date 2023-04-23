@@ -299,37 +299,6 @@
         "timestamp": 1632496261000
       }
     ]
-  },
-  {
-    "id": "372aec43-77cc-476a-a6b1-6111995e9358",
-    "title": "Blu is a dog",
-    "channel": "Blu sleeps"
-  },
-  {
-    "id": "462000df-da92-4a89-ba3b-c457ac7c1b6b",
-    "title": "Blu is a puppo",
-    "channel": "Blu eats"
-  },
-  {
-    "id": "1bd260c0-1b37-49a3-bcfe-279ce1940ced",
-    "title": "Blu is a doggo",
-    "channel": "Blu plays"
-  },
-  {
-    "id": "0c93b750-a8d1-4799-9588-1b2219939732",
-    "title": "Blu is a smol",
-    "channel": "Blu jumps"
-  },
-  {
-    "id": "26e96a0a-4a38-4c53-a6b0-701915bfeee5",
-    "title": "Blu is a smol",
-    "channel": "Blu jumps",
-    "image": "./public/images/Upload-video-preview.jpg",
-    "description": "Blu is a good boii ",
-    "views": 0,
-    "likes": 0,
-    "duration": "0:00",
-    "timestamp": "2023-04-23T01:59:21.409Z",
-    "comments": []
   }
+
 ]
