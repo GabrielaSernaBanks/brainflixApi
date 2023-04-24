@@ -29,18 +29,18 @@ router.get("/:id", (req, res) => {
 
 
 router.post("/", (req,res) => {
-  console.log(req.body);
+  const timestamp = Math.floor(Date.parse(new Date()) / 1000);
   const newVideo = {
     id: uuidv4(),
     title: req.body.title,
-    channel: req.body.channel,
-    image: "./public/images/Upload-video-preview.jpg",
+    channel: "Channel Name",
+    image: req.body.image,
     description: req.body.description,
     views: 0,
     likes: 0,
     duration: "0:00",
-    video: req.body.video,
-    timestamp: new Date().toISOString(),
+    video: "https://project-2-api.herokuapp.com/stream",
+    timestamp: timestamp,
     comments: []
   };
 

@@ -13,7 +13,7 @@ app.use((req, res, next) => {
 })
 
 app.use("/videos", videoRoutes);
-app.use("/public-images", express.static("./files"));
+app.use("/images", express.static("./public/images"));
 
 app.listen(PORT, () => {
   console.log("server is listening on" + PORT );
